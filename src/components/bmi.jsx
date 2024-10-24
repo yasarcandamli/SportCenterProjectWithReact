@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import bmiImage from "../../images/bmi-index.jpg";
 function BMI() {
     const [height, setHeight] = useState('');
     const [weight, setWeight] = useState('');
@@ -76,7 +77,7 @@ function BMI() {
                     <div className="bmi-result">
                         <h2>{bmiResult}</h2>
                         <div className="bmi-img">
-                            <img src="images/bmi-index.jpg" alt="BMI-Index" />
+                            <img src={bmiImage} alt="BMI-Index" />
                             <div className="bmi-pointer" style={{ right: pointerRight }}></div>
                         </div>
                     </div>

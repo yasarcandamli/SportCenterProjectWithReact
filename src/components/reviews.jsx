@@ -1,3 +1,5 @@
+import client1 from "../../images/client1.jpg";
+import client2 from "../../images/client2.jpg";
 function Reviews() {
     return (
         <>
@@ -12,7 +14,7 @@ function Reviews() {
                     <div className="client-reviews">
                         <div className="client-review">
                             <div className="client">
-                                <img src="images/client1.jpg" alt="Client1" />
+                                <img src={client1} alt="Client1" />
                                 <p>Diet Expert
                                     <br />
                                     <span>CFO</span>
@@ -26,7 +28,7 @@ function Reviews() {
                         </div>
                         <div className="client-review">
                             <div className="client">
-                                <img src="images/client2.jpg" alt="Client2" />
+                                <img src={client2} alt="Client2" />
                                 <p>Cardio Trainer
                                     <br />
                                     <span>CEO</span>

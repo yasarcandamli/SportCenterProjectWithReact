@@ -1,9 +1,10 @@
+import logo from "../../images/logo.png";
 function Footer() {
     return (
         <>
             <footer>
                 <div className="logo">
-                    <img src="images/logo.png" alt="Logo" />
+                    <img src={logo} alt="Logo" />
                 </div>
                 <div className="footer-info">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi autem alias molestiae repellendus.

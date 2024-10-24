@@ -1,4 +1,8 @@
 import { useState } from "react";
+import yoga from "../../images/yoga.jpg";
+import group from "../../images/group.webp";
+import solo from "../../images/solo.jpg";
+import stretching from "../../images/stret.webp";
 
 useState
 function Classes() {
@@ -52,7 +56,7 @@ function Classes() {
                                     <p>Monday - Tuesday: 10.00 am - 12:00 pm</p>
                                     <p>Wednesday - Friday: 08.00 am - 10:00 am</p>
                                 </div>
-                                <img className="class-img" src="images/yoga.jpg" alt="Yoga" />
+                                <img className="class-img" src={yoga} alt="Yoga" />
                             </div>
                         </div>
                         <div className={`group ${activeClass === "group" ? "classes-chosen" : "hidden"}`}>
@@ -70,7 +74,7 @@ function Classes() {
                                     <p>Monday - Tuesday: 10.00 am - 12:00 pm</p>
                                     <p>Wednesday - Friday: 08.00 am - 10:00 am</p>
                                 </div>
-                                <img className="class-img" src="images/group.webp" alt="Group" />
+                                <img className="class-img" src={group} alt="Group" />
                             </div>
                         </div>
                         <div className={`solo ${activeClass === "solo" ? "classes-chosen" : "hidden"}`}>
@@ -89,7 +93,7 @@ function Classes() {
                                     <p>Monday - Tuesday: 10.00 am - 12:00 pm</p>
                                     <p>Wednesday - Friday: 08.00 am - 10:00 am</p>
                                 </div>
-                                <img className="class-img" src="images/solo.jpg" alt="Solo" />
+                                <img className="class-img" src={solo} alt="Solo" />
                             </div>
                         </div>
                         <div className={`stretching ${activeClass === "stretching" ? "classes-chosen" : "hidden"}`}>
@@ -108,7 +112,7 @@ function Classes() {
                                     <p>Monday - Tuesday: 10.00 am - 12:00 pm</p>
                                     <p>Wednesday - Friday: 08.00 am - 10:00 am</p>
                                 </div>
-                                <img className="class-img" src="images/stret.webp" alt="Stretching" />
+                                <img className="class-img" src={stretching} alt="Stretching" />
                             </div>
                         </div>
                     </div>

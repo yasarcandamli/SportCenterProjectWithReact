@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from "react";
+import logo from "../../images/logo.png";
 
 function Header() {
     const [navScroll, setNavScroll] = useState(false);
@@ -52,7 +53,7 @@ function Header() {
                 <nav ref={navRef} className={`nav ${navScroll ? 'nav-scroll' : ''}`} id="main-nav">
                     <div className="nav-div container">
                         <div className="logo">
-                            <img src="images/logo.png" alt="Logo" />
+                            <img src={logo} alt="Logo" />
                         </div>
                         <div className="nav-menu" ref={navMenuRef} id="nav-menu">
                             <ul>

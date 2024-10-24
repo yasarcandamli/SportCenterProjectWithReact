@@ -1,3 +1,6 @@
+import trainer1 from "../../images/trainer1.jpg";
+import trainer2 from "../../images/trainer2.jpg";
+import trainer3 from "../../images/trainer3.jpg";
 function Trainers() {
     return (
         <>
@@ -12,7 +15,7 @@ function Trainers() {
                     </div>
                     <div className="trainers-options">
                         <div className="trainer">
-                            <img src="images/trainer1.jpg" alt="Trainer-1" />
+                            <img src={trainer1} alt="Trainer-1" />
                             <div className="trainer-card">
                                 <div className="trainer-card-info">
                                     <h2>Susan Doe</h2>
@@ -21,7 +24,7 @@ function Trainers() {
                             </div>
                         </div>
                         <div className="trainer">
-                            <img src="images/trainer2.jpg" alt="Trainer-2" />
+                            <img src={trainer2} alt="Trainer-2" />
                             <div className="trainer-card">
                                 <div className="trainer-card-info">
                                     <h2>John Doe</h2>
@@ -30,7 +33,7 @@ function Trainers() {
                             </div>
                         </div>
                         <div className="trainer">
-                            <img src="images/trainer3.jpg" alt="Trainer-3" />
+                            <img src={trainer3} alt="Trainer-3" />
                             <div className="trainer-card">
                                 <div className="trainer-card-info">
                                     <h2>Jane Doe</h2>
