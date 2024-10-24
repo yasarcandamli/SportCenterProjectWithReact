@@ -2,6 +2,8 @@
 
 ## Go to Website
 
+https://startling-cassata-04f787.netlify.app/
+
 ## Features
 
 - Navbar: Fixed and scroll event sensitive.
