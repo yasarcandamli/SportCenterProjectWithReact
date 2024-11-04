@@ -50,7 +50,7 @@ https://startling-cassata-04f787.netlify.app/
 
 ![alt text](image-7.png)
 
-# Web Interactive Features Project
+# Web Interactive Features
 
 ## Description
 
